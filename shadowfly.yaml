@@ -7,6 +7,7 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🎶 解锁节点1, server: music.desperadoj.com, port: 30001, type: ss, cipher: aes-128-gcm, tls: false, username:"", password: ""}
   - {name: 🎶 解锁节点2, server: music.lolico.me, port: 39000, type: http, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2}
+  - {name: 🎶 解锁节点3, server: taron.top, port: 100, type: http, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2}
   - {name: 🇭🇰 HK01, server: hk01-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
   - {name: 🇭🇰 HK02, server: hk02-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
   - {name: 🇭🇰 HK03, server: hk03-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
@@ -114,6 +115,7 @@ proxy-groups:
       - DIRECT
       - 🎶 解锁节点1
       - 🎶 解锁节点2
+      - 🎶 解锁节点3
   - name: 🐟 漏网之鱼
     type: select
     proxies:
