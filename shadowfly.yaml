@@ -14,13 +14,16 @@ proxies:
   - {name: 🇭🇰 HK04, server: hk04-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
   - {name: 🇭🇰 HK05, server: hk05-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
   - {name: 🇭🇰 HK06, server: hk06-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
-  - {name: 🇭🇰 HK07, server: hk07-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
-  - {name: 🇭🇰 HK08, server: hk08-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
-  - {name: 🇭🇰 HK09, server: hk09-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
-  - {name: 🇭🇰 HK10, server: hk10-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
-  - {name: 🇭🇰 HK11, server: hk11-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
-  - {name: 🇭🇰 HK12, server: hk12-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
+  - {name: 🇭🇰 HK07, server: hk07-l1-g10.shadowflyurl.com, port: 824, type: ssr, cipher: aes-256-cfb, password: sfeddddd, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 41:VkvcC2h9, obfs-param: 8566f41.microsoft.com}
+  - {name: 🇭🇰 HK08, server: hk08-l1-g10.shadowflyurl.com, port: 824, type: ssr, cipher: aes-256-cfb, password: sfeddddd, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 41:VkvcC2h9, obfs-param: 8566f41.microsoft.com}
+  - {name: 🇭🇰 HK09, server: hk09-l1-g10.shadowflyurl.com, port: 824, type: ssr, cipher: aes-256-cfb, password: sfeddddd, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 41:VkvcC2h9, obfs-param: 8566f41.microsoft.com}
+  - {name: 🇭🇰 HK10, server: hk10-l1-g10.shadowflyurl.com, port: 824, type: ssr, cipher: aes-256-cfb, password: sfeddddd, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 41:VkvcC2h9, obfs-param: 8566f41.microsoft.com}
+  - {name: 🇭🇰 HK11, server: hk11-l1-g10.shadowflyurl.com, port: 824, type: ssr, cipher: aes-256-cfb, password: sfeddddd, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 41:VkvcC2h9, obfs-param: 8566f41.microsoft.com}
+  - {name: 🇭🇰 HK12, server: hk12-l1-g10.shadowflyurl.com, port: 824, type: ssr, cipher: aes-256-cfb, password: sfeddddd, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 41:VkvcC2h9, obfs-param: 8566f41.microsoft.com}
   - {name: 🇭🇰 HK13, server: hk13-l1-sn308290S000.shadowflyurl.com, port: 7000, type: ssr, cipher: aes-256-cfb, password: sfeddddd, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 41:VkvcC2h9, obfs-param: 8566f41.microsoft.com}
+  - {name: 🇭🇰 HK14, server: hk14-ipt-sn672833882.shadowflycn.com, port: 8000, type: vmess, uuid: 0b4df233-a349-3c6a-82eb-4a47e98815c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk14-sn11988122.urltosub.com}}
+  - {name: 🇭🇰 HK15, server: hk15-ipt-sn67283329393.shadowflycn.com, port: 8000, type: vmess, uuid: 0b4df233-a349-3c6a-82eb-4a47e98815c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk14-sn11988122.urltosub.com}}
+  - {name: 🇭🇰 HK16, server: hk16-ipt-sn672833000.shadowflycn.com, port: 8000, type: vmess, uuid: 0b4df233-a349-3c6a-82eb-4a47e98815c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk14-sn11988122.urltosub.com}}
   - {name: 🇭🇰 HK01 | AGA |  1 X, server: aga.tomlink.icu, port: 18066, type: vmess, uuid: c1be3e9e-d449-4450-8c93-bc2cabefc03e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: aga.tomlink.icu}, udp: true}
   - {name: 🇭🇰 HKT 01 | HK | 1 X | NF, server: relay-hk.tomlink.icu, port: 3000, type: vmess, uuid: c1be3e9e-d449-4450-8c93-bc2cabefc03e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: relay-hk.tomlink.icu}, udp: true}
   - {name: 🇭🇰 HKT 01 | GZCM-HK | 1 X | NF, server: gdgz.tomlink.icu, port: 30000, type: vmess, uuid: c1be3e9e-d449-4450-8c93-bc2cabefc03e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: gdgz.tomlink.icu}, udp: true}
@@ -53,6 +56,9 @@ proxy-groups:
       - 🇭🇰 HK11
       - 🇭🇰 HK12
       - 🇭🇰 HK13
+      - 🇭🇰 HK14
+      - 🇭🇰 HK15
+      - 🇭🇰 HK16
       - 🇭🇰 HK01 | AGA |  1 X
       - 🇭🇰 HKT 01 | HK | 1 X | NF
       - 🇭🇰 HKT 01 | GZCM-HK | 1 X | NF
@@ -85,6 +91,9 @@ proxy-groups:
       - 🇭🇰 HK11
       - 🇭🇰 HK12
       - 🇭🇰 HK13
+      - 🇭🇰 HK14
+      - 🇭🇰 HK15
+      - 🇭🇰 HK16
       - 🇭🇰 HK01 | AGA |  1 X
       - 🇭🇰 HKT 01 | HK | 1 X | NF
       - 🇭🇰 HKT 01 | GZCM-HK | 1 X | NF
@@ -135,6 +144,9 @@ proxy-groups:
       - 🇭🇰 HK11
       - 🇭🇰 HK12
       - 🇭🇰 HK13
+      - 🇭🇰 HK14
+      - 🇭🇰 HK15
+      - 🇭🇰 HK16
       - 🇭🇰 HK01 | AGA |  1 X
       - 🇭🇰 HKT 01 | HK | 1 X | NF
       - 🇭🇰 HKT 01 | GZCM-HK | 1 X | NF
