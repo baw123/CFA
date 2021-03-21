@@ -8,8 +8,6 @@ proxies:
   - {name: 🎶 解锁节点1, server: music.desperadoj.com, port: 30001, type: ss, cipher: aes-128-gcm, tls: false, username:"", password: ""}
   - {name: 🎶 解锁节点2, server: music.lolico.me, port: 39000, type: http, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2}
   - {name: 🎶 解锁节点3, server: taron.top, port: 100, type: http, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2}
-  - {name: 🎶 解锁节点4, server: 43.251.107.132, port: 8080, type: http}
-  - {name: 🇭🇰 HK00 | SS, server: 43.251.107.132, port: 80, type: ss, cipher: aes-128-gcm, password: f726ee6172baf153}
   - {name: 🇭🇰 HK01 | SS, server: hk01-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
   - {name: 🇭🇰 HK02 | SS, server: hk02-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
   - {name: 🇭🇰 HK03 | SS, server: hk03-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
@@ -51,7 +49,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 HK00 | SS
       - 🇭🇰 HK01 | SS
       - 🇭🇰 HK02 | SS
       - 🇭🇰 HK03 | SS
@@ -93,7 +90,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK00 | SS
       - 🇭🇰 HK01 | SS
       - 🇭🇰 HK02 | SS
       - 🇭🇰 HK03 | SS
@@ -147,14 +143,12 @@ proxy-groups:
       - 🎶 解锁节点1
       - 🎶 解锁节点2
       - 🎶 解锁节点3
-      - 🎶 解锁节点4
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HK00 | SS
       - 🇭🇰 HK01 | SS
       - 🇭🇰 HK02 | SS
       - 🇭🇰 HK03 | SS
